@@ -1,0 +1,13 @@
+            insertion: .custom,
+            removal: .opacity)
+        .animation(.linear(duration: 5))
+    }
+}
+
+struct UsingСustomTransitionView: View {
+    
+    @State private var show = false
+    
+    var body: some View {
+        VStack {
+            if show {
